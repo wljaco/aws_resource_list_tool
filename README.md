@@ -15,9 +15,9 @@ This script will list resources in an AWS account by using the AWS Config "list-
 
 ## Usage
 ### We recommend running the script from within a Cloud9 IDE in the account where AWS Config is enabled, or from within an EC2 instance running in the account
-1. Unzip all files into the same directory
+1. Place both files into the same directory
 2. Run `./inventory_list.sh`
-3. This will output the results to `inv_list.json`
+3. This will output the results to `inv_list.json` inside the working directory
 4. By default, the script will list **all** resources within the account
 	- You can specify which resource categories will be listed by modifying the `aws_resource_types.txt` file.
 	
