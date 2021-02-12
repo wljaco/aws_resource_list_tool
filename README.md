@@ -11,7 +11,7 @@ This script will list resources in an AWS account by using the AWS Config "list-
 2. The script utilizes the AWS CLI, so the CLI must be installed on the machine/platform where it is running
 	- If running the script on a local machine, make sure that your AWS CLI is configured for the account whose resources you want to query.
 		- run 'aws configure' from the command line to configure your AWS CLI for the correct credentials/region/account
-	- If running the script from a Cloud9 IDE within the AWS account, the default configuration will result in the script listing all resources within the account that your IDE is running in.
+	- If running the script from a Cloud9 IDE (**recommended**) within the AWS account, the default configuration will result in the script listing all resources within the account that your IDE is running in.
 
 ## Usage
 ### We recommend running the script from within a Cloud9 IDE in the account where AWS Config is enabled, or from within an EC2 instance running in the account
